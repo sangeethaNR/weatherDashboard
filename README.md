@@ -64,7 +64,7 @@ $ git clone git@github.com:sangeethaNR/weatherDashboard.git
  
   Link to the deployed application https://github.com/sangeethaNR/weatherDashboard
   
-  Landing Page  https://sangeethanr.github.io/weatherDashboard/
+  Landing Page  http://sangeethanr.github.io/weatherDashboard/
 
   
   ## Credits
