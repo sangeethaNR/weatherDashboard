@@ -51,7 +51,7 @@ function getCityweather(cityName){
       }
       
     
-      var apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + APIKey;
+      var apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + APIKey;
      
       $('#city').val('');
 fetch(apiUrl)
