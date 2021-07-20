@@ -82,7 +82,7 @@ flag=0;
         return response.json();
         })
     .then(function(uv_data){
-        console.log('uvi URL' + JSON.stringify(uv_data));
+        
         if(!uv_data){
             console.log('No results found!');
         }
@@ -193,7 +193,7 @@ $(document).click(function(event) {
 function bgColorForUV()
 {
 
-    console.log($('#cityWeatherData').children('span').eq(0).html()); 
+   
   var uvEl =   ($('#cityWeatherData').children('span').eq(0).html()); 
     if(uvEl<=2 && uvEl>=0){
         $('#cityWeatherData').children('span').eq(0).css('background-color','green');
