@@ -16,3 +16,18 @@
 .violet{
     background-color: violet;
 }
+.card{
+    background-color: #052042;
+    color: white;
+}
+.header_class{
+background: linear-gradient(#104ba2f2, #545a9c);
+color: white;
+}
+.hr_line{
+    display: none;
+   border-top : 5px solid black;
+}
+#city_weather, #fiveDayDiv,#day1,#day2,#day3,#day4,#day5{
+    display: none;
+}
